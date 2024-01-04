@@ -33,6 +33,34 @@
       'Image' => 'Intervention\\Image\\Facades\\Image',
     ),
   ),
+  'laravel-lang/attributes' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelLang\\Attributes\\ServiceProvider',
+    ),
+  ),
+  'laravel-lang/lang' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelLang\\Lang\\ServiceProvider',
+    ),
+  ),
+  'laravel-lang/locales' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelLang\\Locales\\ServiceProvider',
+    ),
+  ),
+  'laravel-lang/publisher' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelLang\\Publisher\\ServiceProvider',
+    ),
+  ),
   'laravel/sail' => 
   array (
     'providers' => 
@@ -70,6 +98,13 @@
     'providers' => 
     array (
       0 => 'Laravel\\Ui\\UiServiceProvider',
+    ),
+  ),
+  'laraveles/spanish' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laraveles\\Spanish\\SpanishServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
